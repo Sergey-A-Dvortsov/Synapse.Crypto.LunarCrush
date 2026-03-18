@@ -142,12 +142,12 @@ internal class Program
         token = config["MySettings:Token"];
 
 
-        string symbol = "alice";
-        TimeBucket bucket = TimeBucket.hour;
-        DateTimeOffset start = new(2025, 1, 1, 0, 0, 0, TimeSpan.Zero);
-        DateTimeOffset end = new(2026, 3, 18, 11, 0, 0, TimeSpan.Zero);
+        //string symbol = "alice";
+        //TimeBucket bucket = TimeBucket.hour;
+        //DateTimeOffset start = new(2025, 1, 1, 0, 0, 0, TimeSpan.Zero);
+        //DateTimeOffset end = new(2026, 3, 18, 11, 0, 0, TimeSpan.Zero);
 
-        var series = await GetCoinTimeSeriesAsync(symbol, bucket, start, end);
+        //var series = await GetCoinTimeSeriesAsync(symbol, bucket, start, end);
         //string filePath = Path.Combine(storageFolder, $"{symbol}.csv");
         //series.SaveToFile<LunarData>(filePath, LunarData.Headers);
 
